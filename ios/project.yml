@@ -1,0 +1,62 @@
+# cd ios && xcodegen generate && ./build.sh   （DEVELOPMENT_TEAM 走环境变量）
+name: BooheeLite
+
+options:
+  bundleIdPrefix: dev.mindbar
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: zh-Hans
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    DEVELOPMENT_TEAM: "${env:DEVELOPMENT_TEAM}"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: NO  # 拷 Firebase 配置的脚本要读 data/
+    PRODUCT_BUNDLE_IDENTIFIER: dev.mindbar.boohee
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "13"
+
+targets:
+  BooheeLite:
+    type: application
+    platform: iOS
+    sources:
+      - path: BooheeLite
+        excludes:
+          - Info.plist
+    postBuildScripts:
+      - name: Copy Firebase config
+        # Firebase 配置在 gitignore 的 data/ 里：有就拷进 App，没有就跳过（云同步显示「未配置」），clone 下来不配 Firebase 也能编译
+        script: |
+          f="$SRCROOT/../data/firebase/GoogleService-Info.plist"
+          if [ -f "$f" ]; then cp "$f" "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/"; fi
+        basedOnDependencyAnalysis: false
+    entitlements:
+      path: BooheeLite/BooheeLite.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+    info:
+      path: BooheeLite/Info.plist
+      properties:
+        CFBundleDisplayName: 轻盈
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)  # 每次装机前递增，手机端 devicectl 回读 bundleVersion 才能区分构建
+        NSHealthShareUsageDescription: 读取活动能量、静息能量、步数、体能训练、睡眠、体重、身高、性别和出生日期，计算每日热量消耗，自动同步运动和睡眠。
+        NSHealthUpdateUsageDescription: 把你记录的饮食热量、体重和喝水写回健康 App。
+        NSCameraUsageDescription: 拍摄餐食照片用于估算热量。
+        NSLocalNetworkUsageDescription: 连接你电脑上的识别服务。
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        ITSAppUsesNonExemptEncryption: false
+        UIBackgroundModes: [fetch]  # 凌晨备份用后台刷新
+        BGTaskSchedulerPermittedIdentifiers: [dev.mindbar.boohee.backup]
+        UIUserInterfaceStyle: Light  # 色板只有浅色值，不随系统变深色
+        UILaunchScreen:
+          UIColorName: LaunchBG  # 页面底 #F2F2F7
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false

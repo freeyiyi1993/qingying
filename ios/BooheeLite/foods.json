@@ -1,0 +1,551 @@
+[
+{
+"name": "米饭",
+"aliases": "白米饭,大米饭,饭",
+"kcal": 116,
+"carb": 25.9,
+"protein": 2.6,
+"fat": 0.3,
+"oily": false
+},
+{
+"name": "糙米饭",
+"aliases": "",
+"kcal": 111,
+"carb": 23.0,
+"protein": 2.6,
+"fat": 0.9,
+"oily": false
+},
+{
+"name": "白粥",
+"aliases": "大米粥,稀饭",
+"kcal": 46,
+"carb": 9.9,
+"protein": 1.1,
+"fat": 0.3,
+"oily": false
+},
+{
+"name": "面条(煮)",
+"aliases": "面条,拉面,汤面,挂面",
+"kcal": 110,
+"carb": 24.3,
+"protein": 3.9,
+"fat": 0.4,
+"oily": false
+},
+{
+"name": "馒头",
+"aliases": "",
+"kcal": 223,
+"carb": 47.0,
+"protein": 7.0,
+"fat": 1.1,
+"oily": false
+},
+{
+"name": "包子(肉)",
+"aliases": "肉包,包子",
+"kcal": 227,
+"carb": 30.0,
+"protein": 8.0,
+"fat": 8.0,
+"oily": false
+},
+{
+"name": "饺子(猪肉)",
+"aliases": "饺子,水饺",
+"kcal": 240,
+"carb": 26.0,
+"protein": 9.0,
+"fat": 11.0,
+"oily": false
+},
+{
+"name": "全麦面包",
+"aliases": "面包,吐司",
+"kcal": 246,
+"carb": 41.0,
+"protein": 13.0,
+"fat": 3.4,
+"oily": false
+},
+{
+"name": "燕麦片",
+"aliases": "燕麦",
+"kcal": 377,
+"carb": 66.9,
+"protein": 15.0,
+"fat": 6.7,
+"oily": false
+},
+{
+"name": "红薯",
+"aliases": "地瓜,番薯",
+"kcal": 86,
+"carb": 20.1,
+"protein": 1.6,
+"fat": 0.1,
+"oily": false
+},
+{
+"name": "玉米",
+"aliases": "甜玉米",
+"kcal": 112,
+"carb": 22.8,
+"protein": 4.0,
+"fat": 1.2,
+"oily": false
+},
+{
+"name": "土豆",
+"aliases": "马铃薯",
+"kcal": 77,
+"carb": 17.2,
+"protein": 2.0,
+"fat": 0.2,
+"oily": true
+},
+{
+"name": "米粉(煮)",
+"aliases": "米线,河粉,粿条",
+"kcal": 109,
+"carb": 24.0,
+"protein": 1.8,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "鸡蛋",
+"aliases": "水煮蛋,蛋,煮鸡蛋",
+"kcal": 144,
+"carb": 2.8,
+"protein": 13.3,
+"fat": 8.8,
+"oily": false
+},
+{
+"name": "鸡胸肉",
+"aliases": "鸡胸",
+"kcal": 133,
+"carb": 0.0,
+"protein": 24.6,
+"fat": 3.0,
+"oily": true
+},
+{
+"name": "鸡腿肉",
+"aliases": "鸡腿",
+"kcal": 181,
+"carb": 0.0,
+"protein": 20.0,
+"fat": 11.0,
+"oily": true
+},
+{
+"name": "猪里脊",
+"aliases": "里脊,瘦猪肉",
+"kcal": 155,
+"carb": 0.7,
+"protein": 20.2,
+"fat": 7.9,
+"oily": true
+},
+{
+"name": "五花肉",
+"aliases": "红烧肉,猪五花",
+"kcal": 508,
+"carb": 0.0,
+"protein": 9.0,
+"fat": 53.0,
+"oily": false
+},
+{
+"name": "牛肉(瘦)",
+"aliases": "牛肉,牛腱",
+"kcal": 125,
+"carb": 1.2,
+"protein": 20.2,
+"fat": 4.2,
+"oily": true
+},
+{
+"name": "三文鱼",
+"aliases": "鲑鱼",
+"kcal": 208,
+"carb": 0.0,
+"protein": 20.0,
+"fat": 13.4,
+"oily": false
+},
+{
+"name": "虾",
+"aliases": "虾仁,基围虾",
+"kcal": 93,
+"carb": 0.0,
+"protein": 18.6,
+"fat": 0.8,
+"oily": true
+},
+{
+"name": "豆腐",
+"aliases": "北豆腐,南豆腐",
+"kcal": 82,
+"carb": 4.2,
+"protein": 8.1,
+"fat": 3.7,
+"oily": true
+},
+{
+"name": "牛奶",
+"aliases": "全脂牛奶",
+"kcal": 65,
+"carb": 4.8,
+"protein": 3.3,
+"fat": 3.6,
+"oily": false
+},
+{
+"name": "脱脂牛奶",
+"aliases": "",
+"kcal": 35,
+"carb": 5.0,
+"protein": 3.4,
+"fat": 0.1,
+"oily": false
+},
+{
+"name": "无糖酸奶",
+"aliases": "酸奶,希腊酸奶",
+"kcal": 72,
+"carb": 6.0,
+"protein": 3.5,
+"fat": 3.5,
+"oily": false
+},
+{
+"name": "豆浆(无糖)",
+"aliases": "豆浆",
+"kcal": 31,
+"carb": 1.2,
+"protein": 3.0,
+"fat": 1.6,
+"oily": false
+},
+{
+"name": "西兰花",
+"aliases": "西蓝花,花椰菜",
+"kcal": 34,
+"carb": 6.6,
+"protein": 2.8,
+"fat": 0.4,
+"oily": true
+},
+{
+"name": "番茄",
+"aliases": "西红柿",
+"kcal": 18,
+"carb": 3.9,
+"protein": 0.9,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "黄瓜",
+"aliases": "",
+"kcal": 16,
+"carb": 3.6,
+"protein": 0.7,
+"fat": 0.1,
+"oily": false
+},
+{
+"name": "生菜",
+"aliases": "沙拉菜",
+"kcal": 15,
+"carb": 2.9,
+"protein": 1.4,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "菠菜",
+"aliases": "",
+"kcal": 23,
+"carb": 3.6,
+"protein": 2.9,
+"fat": 0.4,
+"oily": true
+},
+{
+"name": "青菜",
+"aliases": "小白菜,上海青,油菜,菜心",
+"kcal": 15,
+"carb": 2.7,
+"protein": 1.5,
+"fat": 0.2,
+"oily": true
+},
+{
+"name": "茄子",
+"aliases": "",
+"kcal": 25,
+"carb": 5.9,
+"protein": 1.0,
+"fat": 0.2,
+"oily": true
+},
+{
+"name": "蘑菇",
+"aliases": "香菇,菌菇",
+"kcal": 24,
+"carb": 4.1,
+"protein": 2.7,
+"fat": 0.1,
+"oily": true
+},
+{
+"name": "番茄炒蛋",
+"aliases": "西红柿炒鸡蛋,西红柿炒蛋,番茄炒鸡蛋",
+"kcal": 81,
+"carb": 3.4,
+"protein": 7.1,
+"fat": 4.5,
+"oily": true
+},
+{
+"name": "青椒肉丝",
+"aliases": "",
+"kcal": 120,
+"carb": 4.0,
+"protein": 13.0,
+"fat": 6.0,
+"oily": true
+},
+{
+"name": "宫保鸡丁",
+"aliases": "",
+"kcal": 150,
+"carb": 6.0,
+"protein": 16.0,
+"fat": 7.0,
+"oily": true
+},
+{
+"name": "麻婆豆腐",
+"aliases": "",
+"kcal": 100,
+"carb": 4.0,
+"protein": 9.0,
+"fat": 5.5,
+"oily": true
+},
+{
+"name": "清炒时蔬",
+"aliases": "炒青菜,炒菜心",
+"kcal": 20,
+"carb": 3.0,
+"protein": 1.5,
+"fat": 0.2,
+"oily": true
+},
+{
+"name": "鱼香肉丝",
+"aliases": "",
+"kcal": 130,
+"carb": 8.0,
+"protein": 11.0,
+"fat": 6.5,
+"oily": true
+},
+{
+"name": "红烧鸡块",
+"aliases": "",
+"kcal": 170,
+"carb": 3.0,
+"protein": 18.0,
+"fat": 9.0,
+"oily": true
+},
+{
+"name": "炒饭",
+"aliases": "蛋炒饭,扬州炒饭",
+"kcal": 150,
+"carb": 25.0,
+"protein": 4.5,
+"fat": 3.0,
+"oily": true
+},
+{
+"name": "炒面",
+"aliases": "",
+"kcal": 150,
+"carb": 24.0,
+"protein": 5.0,
+"fat": 3.5,
+"oily": true
+},
+{
+"name": "海南鸡饭",
+"aliases": "chicken rice,鸡饭",
+"kcal": 170,
+"carb": 22.0,
+"protein": 9.0,
+"fat": 5.0,
+"oily": false
+},
+{
+"name": "叻沙",
+"aliases": "laksa",
+"kcal": 120,
+"carb": 12.0,
+"protein": 5.0,
+"fat": 6.0,
+"oily": false
+},
+{
+"name": "沙拉(无酱)",
+"aliases": "蔬菜沙拉,沙拉",
+"kcal": 20,
+"carb": 3.5,
+"protein": 1.2,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "苹果",
+"aliases": "",
+"kcal": 53,
+"carb": 13.7,
+"protein": 0.4,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "香蕉",
+"aliases": "",
+"kcal": 93,
+"carb": 22.0,
+"protein": 1.4,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "橙子",
+"aliases": "橙,橘子",
+"kcal": 48,
+"carb": 11.1,
+"protein": 0.8,
+"fat": 0.2,
+"oily": false
+},
+{
+"name": "葡萄",
+"aliases": "",
+"kcal": 45,
+"carb": 10.3,
+"protein": 0.4,
+"fat": 0.3,
+"oily": false
+},
+{
+"name": "西瓜",
+"aliases": "",
+"kcal": 31,
+"carb": 6.8,
+"protein": 0.5,
+"fat": 0.1,
+"oily": false
+},
+{
+"name": "榴莲",
+"aliases": "",
+"kcal": 150,
+"carb": 28.3,
+"protein": 2.6,
+"fat": 3.3,
+"oily": false
+},
+{
+"name": "坚果(混合)",
+"aliases": "坚果,杏仁,腰果,核桃",
+"kcal": 600,
+"carb": 20.0,
+"protein": 18.0,
+"fat": 52.0,
+"oily": false
+},
+{
+"name": "黑巧克力",
+"aliases": "巧克力",
+"kcal": 550,
+"carb": 46.0,
+"protein": 7.8,
+"fat": 36.0,
+"oily": false
+},
+{
+"name": "薯片",
+"aliases": "",
+"kcal": 548,
+"carb": 52.0,
+"protein": 6.0,
+"fat": 35.0,
+"oily": false
+},
+{
+"name": "奶茶(全糖)",
+"aliases": "奶茶,珍珠奶茶,bubble tea",
+"kcal": 70,
+"carb": 12.0,
+"protein": 0.8,
+"fat": 2.2,
+"oily": false
+},
+{
+"name": "可乐",
+"aliases": "汽水",
+"kcal": 43,
+"carb": 10.6,
+"protein": 0.0,
+"fat": 0.0,
+"oily": false
+},
+{
+"name": "拿铁(全脂)",
+"aliases": "拿铁,咖啡拿铁,latte",
+"kcal": 56,
+"carb": 4.6,
+"protein": 3.0,
+"fat": 3.0,
+"oily": false
+},
+{
+"name": "美式咖啡",
+"aliases": "黑咖啡,咖啡",
+"kcal": 2,
+"carb": 0.3,
+"protein": 0.1,
+"fat": 0.0,
+"oily": false
+},
+{
+"name": "啤酒",
+"aliases": "",
+"kcal": 32,
+"carb": 3.0,
+"protein": 0.4,
+"fat": 0.0,
+"oily": false
+},
+{
+"name": "烹调油",
+"aliases": "食用油,油",
+"kcal": 899,
+"carb": 0.0,
+"protein": 0.0,
+"fat": 99.9,
+"oily": false
+}
+]

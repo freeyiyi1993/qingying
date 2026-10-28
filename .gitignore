@@ -1,0 +1,7 @@
+data/
+ios/build/
+ios/build-sim/
+ios/*.xcodeproj/
+GoogleService-Info.plist
+.firebaserc
+.DS_Store
